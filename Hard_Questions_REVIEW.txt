@@ -1,0 +1,7 @@
+HARD QUESTIONS:
+1. Robot Room Cleaner (https://www.goodtecher.com/leetcode-489-robot-room-cleaner/)
+2. Delete and Earn: (https://leetcode.com/problems/delete-and-earn/submissions/)
+3. Longest Common Substring: (https://leetcode.com/problems/longest-common-subsequence/)
+4. Smallest String with Swaps: (https://leetcode.com/problems/smallest-string-with-swaps/)
+5. Clone Graph: (https://leetcode.com/problems/clone-graph/submissions/)
+
