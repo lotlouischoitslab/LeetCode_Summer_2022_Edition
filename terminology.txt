@@ -1,7 +1,11 @@
 Time Complexity:
 
 
-
 Space Complexity Words:
 
 -Space, Usage, Consumption, Footprint
+
+
+
+Graphs:
+- Circular Dependency: My neighbor needs to wait for my result from the recursive call.
