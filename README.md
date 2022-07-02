@@ -1,4 +1,4 @@
 # LeetCode Summer 2022 Grind
-# Contributors
+## Contributors
 - ### Anish Meka
 - ### Louis Sungwoo Cho
