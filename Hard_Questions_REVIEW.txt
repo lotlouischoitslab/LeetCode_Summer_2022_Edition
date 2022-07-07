@@ -6,3 +6,4 @@ HARD QUESTIONS:
 5. Clone Graph: (https://leetcode.com/problems/clone-graph/submissions/)
 6. Min Cost Connect All Paths: (https://leetcode.com/problems/min-cost-to-connect-all-points/submissions/) We need to figure out what heap is for the Prim's Algorithm
 
+7. Top K Frequency (https://leetcode.com/problems/top-k-frequent-elements/)
