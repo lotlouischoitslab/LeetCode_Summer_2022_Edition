@@ -7,3 +7,4 @@ HARD QUESTIONS:
 6. Min Cost Connect All Paths: (https://leetcode.com/problems/min-cost-to-connect-all-points/submissions/) We need to figure out what heap is for the Prim's Algorithm
 
 7. Top K Frequency (https://leetcode.com/problems/top-k-frequent-elements/)
+8. Network Delay Time (https://leetcode.com/problems/network-delay-time/)
