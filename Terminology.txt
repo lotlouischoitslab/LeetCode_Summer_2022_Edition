@@ -1,12 +1,25 @@
 Time Complexity:
 
 Space Complexity Words:
+- Space, Usage, Consumption, Footprint
 
--Space, Usage, Consumption, Footprint
-
+Dynamic Programming:
+- Optimal Substructure
 
 Graphs:
 - Circular Dependency: My neighbor needs to wait for my result from the recursive call.
 - Dijkstra Algorithm: Can solve any single-source shortest path problem in any directed graph with non-negative weights
 
 - Bellman-Ford Algorithm: Can solve any single-source shortest path problem in a weighted directed graph with any weights, including negative weights. 
+
+- In a graph with N vertices, if it is either acyclic or cyclic with only positive weight cycles, then the shortes path between any two vertices would have at most N - 1 edges. In a graph with no negative-weight cycles with N vertices, the shortest path between any two vertices would have at most N - 1 edges. 
+
+NOTE:
+DP Approach to Bellman-Ford: We should only implement this approach when we are asked to find the minimum path cost for any pair of vertices with at most k edges. If we are not given a constraint on the number of edges, we should skip over to the improved approach. We implicitly will have a 2d matrix array where the index into the first dimension is at most how many edges the path must consist of (going from 0 to V - 1) and each of the list entries inside the 2d matrix consist of the minimum path cost from the source vertex to that particular destination vertex (where the destination vertex is an index into this particular 1d list) using at most k edges where k is the index into the first dimension of the 2d matrix. 
+
+Recurrence Relation to transition between states: DP[k][u] = min(DP[k-1][u], DP[k-1][v] + Weight(v,u)) if k is not equal to 0
+When k is equal to 0, DP[0][source node] = 0 and DP[0][non source node] = infinity
+u represents the destination vertex, V represents each of the adjacent nodes from which there is a directed edge incident to destination vertex U. 
+We can further optimize the space complexity by only maintaining the previous row and current row of the 2d matrix. When we move on to the next row, the previous row becomes the current row and we can update the entries for the current row to reflect the next row. 
+
+Improved Bellman-Ford Approach:
