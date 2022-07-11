@@ -8,6 +8,10 @@ Optimal Substructure
 
 Graphs:
 Circular Dependency: My neighbor needs to wait for my result from the recursive call.
+In-Degree: Number of incoming edges in a graph
+
+
+Important Graph Algorithms:
 Dijkstra Algorithm: Can solve any single-source shortest path problem in any directed graph with non-negative weights
 
 Bellman-Ford Algorithm: Can solve any single-source shortest path problem in a weighted directed graph with any weights, including negative weights. 
