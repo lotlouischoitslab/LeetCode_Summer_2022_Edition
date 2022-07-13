@@ -5,6 +5,7 @@ Space, Usage, Consumption, Footprint
 
 Dynamic Programming:
 Optimal Substructure
+Pathing Problem: Matrices as part of the input and rules for moving throughout the matrix. DP will be applicable when the allowed movements is constrained in such a way that it prevents moving backwards. In other words, for the available movement options, there should be no opposite movement that could counteract it. 
 
 Graphs:
 Circular Dependency: My neighbor needs to wait for my result from the recursive call.
